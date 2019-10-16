@@ -254,7 +254,7 @@ body {
 .newsletter-container form {
   width: 460px;
   float: left;
-  margin: 0 10px;
+  margin: 10px 10px 0px 10px;
 }
 .newsletter-container label {
   display: none;
@@ -279,4 +279,28 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.5em;
   cursor: pointer;
+}
+.footer {
+  background: #d6d3c8;
+  padding: 40px 0px;
+}
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.footer-container::after, .footer-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+.footer-container p {
+  float: left;
+  margin: 0px 10px;
+  width: 480px;
+  font-size: 1.125em;
+}
+.footer-container img {
+  float: right;
+  margin: 0px 10px;
+  display: block;
 }
