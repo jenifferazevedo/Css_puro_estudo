@@ -221,3 +221,59 @@ body {
   text-align: center;
   padding: 10px 0px;
 }
+/*Assine*/
+.newsletter {
+  background: #e7e4d8;
+}
+.newsletter-container{
+  max-width: 960px;
+  padding: 40px 0px;
+  margin: 0 auto;
+}
+.newsletter-container::after, .newsletter-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+.newsletter-container > div { 
+  float: left;
+  margin: 0 10px;
+  width: 460px;
+}
+.newsletter-container > div h2 { 
+  font-size: 2.25em;
+  text-transform: capitalize;
+}
+.newsletter-container > div p { 
+  font-size: 1.5em;
+  font-style: italic;
+}
+.newsletter-container form {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+.newsletter-container label {
+  display: none;
+}
+.newsletter-container input {
+  width: 294px;
+  padding: 10px;
+  border: 3px solid #252525;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.5em;
+  background: none;
+  float: left;
+}
+.newsletter-container button {
+  width: 140px;
+  padding: 13px 0px;
+  border: none;
+  background: #252525;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  cursor: pointer;
+}
