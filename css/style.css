@@ -3,7 +3,6 @@ body, h1, h2, h3, p, ul {
   padding: 0;
   margin: 0;
 }
-
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #252525;
@@ -13,37 +12,57 @@ body {
   background-color: #252525;
   padding: 20px 0px;
 }
-
 .menu-container {
   max-width: 960px;
   margin: 0 auto;
 }
-
 .menu-container::after, .menu-container::before {
   content: '';
   display: table;
   clear: both;
 }
-
 .menu-logo {
   display: block;
   float: left;
   padding-left: 10px;
 }
-
 .menu-nav {
   float: right;
   padding-right: 10px;
 }
-
 .menu-nav li {
   display: inline-block;
 }
-
 .menu-nav a {
   display: block;
   padding: 10px;
   text-decoration: none;
   color: #fff;
+  font-size: 1.125em;
+}
+
+/*Intro*/
+
+.intro {
+  background: url(/img/bg-intro.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 150px 0px;
+  color: #fff;
+  text-align: center;
+}
+.intro h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+.intro h1::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: #fff;
+  margin: 10px auto;
+}
+.intro p {
+  font-style: italic;
   font-size: 1.125em;
 }
