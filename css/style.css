@@ -7,6 +7,9 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #252525;
 }
+* {
+  box-sizing: border-box;
+}
 /* Menu */
 .menu {
   background-color: #252525;
@@ -257,7 +260,7 @@ body {
   display: none;
 }
 .newsletter-container input {
-  width: 294px;
+  width: 320px;
   padding: 10px;
   border: 3px solid #252525;
   font-family: Georgia, 'Times New Roman', Times, serif;
